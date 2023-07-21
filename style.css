@@ -1,0 +1,277 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.mainpart {
+    height: 100vh;
+    background-image: url(coffeeonmap.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-grid {
+    display: 100vh;
+    display: grid;
+    grid-template-columns: 60% 8% 8% 6% 6% 6% 6%;
+    text-align: center;
+}
+
+.nav-grid-left {
+    font-size: 28px;
+}
+
+.nav-grid-right {
+    padding-top: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.btn {
+    background-color: rgba(63, 36, 36, 0.521);
+    font-size: 14px;
+    color: white;
+    padding: 25px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.title-mainpart {
+    height: 20vh;
+    padding-top: 50px;
+}
+
+.text {
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+
+}
+
+.services-icons-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 60vh;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.services-icons {
+    text-align: center;
+    padding: 20px;
+}
+
+.icon {
+    text-align: center;
+    color: rgba(63, 36, 36);
+    font-size: 70px;
+}
+
+.portfolio {
+    height: 140vh;
+    background-color: rgba(206, 205, 205, 0.205);
+}
+
+.portfolio-maingrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+    margin: 0 250px;
+}
+
+.grid-photo {
+    width: 300px;
+    height: 300px;
+}
+
+.photo1 {
+    background-image: url(coffemap.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo2 {
+    background-image: url(coffeebeans.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo3 {
+    background-image: url(coffeeblend.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* .photo1:hover {
+
+    transform: scale(1,2);
+
+} */
+
+.photo4 {
+    background-image: url(coffeesack.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo5 {
+    background-image: url(coffeekalita.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo6 {
+    background-image: url(coffeetable.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.loop {
+    color: rgb(255, 255, 255);;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.mask {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: relative;
+}
+
+.mask:hover {
+    opacity: 1;
+    background-color: rgba(37, 26, 26, 0.685);
+}
+
+.desc {
+    background-color: white;
+}
+
+.team {
+    height: 100vh;
+}
+
+.people-maingrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.people-item {
+    text-align: center;
+}
+
+.img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.sd-icon {
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+    padding: 10px;
+}
+
+#sd-icon-special {
+color: rgba(63, 36, 36, 0.521);
+}
+
+.text-underline {
+    width: 60%;
+    text-align: center;
+    padding-left: 340px;
+}
+.footer {
+    height: 80vh;
+    background-image: url(coffemap.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#footertitle {
+    color: white;
+    text-align: center;
+}
+
+#footertext {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    
+}
+
+input {
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    width: 50%;
+    height: 40px;
+    margin-left: 300px;
+
+}
+
+textarea {
+    border:none;
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 0px ;
+    height: 240px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.button {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.lower-part {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 5vh;
+    margin: 50px auto;
+    grid-gap: 10px;
+}
+
+.copy {
+    text-align: right;
+}
+
+.icons {
+    text-align: right;
+}
+
+.policy {
+    text-align: right;
+}
